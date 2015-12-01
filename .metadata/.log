@@ -1,0 +1,40 @@
+!SESSION 2015-11-23 17:56:16.415 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/school/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/school/Desktop/untitled folder -keyring /Users/school/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-11-23 17:56:18.372
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-11-23 17:56:39.502
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-11-23 17:56:39.506
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-11-23 17:56:41.469
+!MESSAGE (Build 4.4.0.201511182122) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.471
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Apple WatchOS2
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.473
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample iOS 9 App Search
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.474
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Ti SDK 4.1 Example App
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.475
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.476
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.477
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-11-23 17:56:41.478
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader

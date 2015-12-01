@@ -1,0 +1,42 @@
+var newMovies = [ "Zoolander 2", "Criminal Activities", "The Force Awakens", "Allegiant", "Alice Throught The Looking Glass", "Concussion", "Top Gun 2"];
+
+var displayMovies = function(){
+	textView.hide;
+	
+	for(i=0, j=newMovies.length; i<j; i++){
+		
+		
+		var movieLabel = Titanium.UI.createLabel({
+		text: newMovies[j],
+		color: "#fff",
+		font: {fontSize: 16, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
+		
+
+	
+		});
+
+	
+		view.add(movieLabel);
+	}
+	
+};
+
+var displayPreviousMovie = function(){
+	textLabel.text = newMovies [0];
+	textView.hide;
+	
+	
+	var previousMovieLabel = Titanium.UI.createLabel({
+		text:newMovies[0],
+		color: "#fff",
+		font:{fontSize: 16, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", }, 
+	});
+	
+	view.add(previousMovieLabel);
+};
+
+
+nextButton.addEventListener( "click", displayMovies);
+
+previousButton.addEventListener("click", displayPreviousMovie);
+

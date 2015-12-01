@@ -1,0 +1,24 @@
+var newMovies = [ "Zoolander 2", "Criminal Activities", "The Force Awakens", "Allegiant", "Alice Throught The Looking Glass", "Concussion", "Top Gun 2"];
+
+var displayMovies = function(){
+	var movieLabel = Titanium.UI.createLabel({
+		text: newMovies [1],[2],[3],[4],[5],[6],
+		color: "#fff",
+		font: {fontSize: 16, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", }
+	
+	});
+	
+	
+	
+	mainWindow.add(movieLabel);
+
+	
+};
+var displayPreviousMovie = function(){
+	textLabel.text = newMovies [0];
+};
+
+
+nextButton.addEventListener( "click", displayMovies);
+previousButton.addEventListener("click", displayPreviousMovie);
+

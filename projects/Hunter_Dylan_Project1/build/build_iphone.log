@@ -1,0 +1,160 @@
+
+11/30/2015, 9:55:59 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 4.2.2
+  npm Version                 = 2.14.7
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.0.GA
+  SDK Path                    = /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49650 --username dhunter1@fullsail.edu --password Volcom91 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1448938556695.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib] Found iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib]   iOS     = 9.1
+[TRACE]  [ioslib] Autoselected Xcode: 7.1.1
+[DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.1
+[INFO]   Building for iOS Simulator: iPhone 4s
+[DEBUG]  UDID: 454B8A6D-4296-447D-8921-138A62D5C0F8
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.1
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-7a09d68abb7e97408607fd90a3e7227a52235008.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 378.582 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/project1_dylan_hunter.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/project1_dylan_hunter.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/project1_dylan_hunter_Prefix.pch
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/project1_dylan_hunter.xcodeproj/xcshareddata/xcschemes/project1_dylan_hunter.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/debugger.plist
+[DEBUG]  Skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 58x58 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/app.js
+[DEBUG]  Overwriting /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/Resources/movieIteams.js => /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/movieIteams.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 117ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib]   iOS     = 9.1
+[TRACE]  [ioslib] Autoselected Xcode: 7.1.1
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/E457B032-2B2F-48B3-AE0D-B42BD5D23AD3/Documents/37d9849b-abab-450f-9bbb-355bd45817a6.log
+[TRACE]  [ioslib] iPhone 4s Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/school/Library/Logs/CoreSimulator/454B8A6D-4296-447D-8921-138A62D5C0F8/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 454B8A6D-4296-447D-8921-138A62D5C0F8 /Users/school/Desktop/VFW 1512/projects/project1_dylan_hunter/build/iphone/build/Products/Debug-iphonesimulator/project1_dylan_hunter.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 454B8A6D-4296-447D-8921-138A62D5C0F8 com.project1.dylan
+[TRACE]  [ioslib] App launched
+[TRACE]  [project1_dylan_hunter] assertion failed: 14F27 13B137: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/78338D7A-75BF-4132-9F79-3E8B5B20B3CA/Documents/37d9849b-abab-450f-9bbb-355bd45817a6.log
+[TRACE]  [ioslib] Detected crash file: /Users/school/Library/Logs/DiagnosticReports/project1_dylan_hunter_2015-11-28-233309_Dylans-MacBook-Pro.crash
