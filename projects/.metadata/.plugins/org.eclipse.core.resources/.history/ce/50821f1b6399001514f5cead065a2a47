@@ -1,0 +1,121 @@
+Titanium.UI.setBackgroundColor("#000");
+
+var comedies = [
+	{title: "Zoolander 2", description: "This is the long awaited sequel to the 2001 hit staring Ben Stiler and Owen wilson. In this newly adapted film, they will pick up where they left off with the first film, as well as bringing back all of the original characters including Will Ferell."}, 	
+	{title: "Central Intelligence", description: "This is a new comedy staring the Rock and Kevin Hart! The story will follow CIA agent the rock, coming home for his high school reunion. When he gets there he enlists the help of Hart, who is now an accountant and missing his glory days from high school."}, 
+	{title: "The Boss", description: "New comedy from up and coming actress Melisa McCarthy. She was a CEO of a fourtane 500 company, when one day she is charged with fraud and goes to prison. upon her relse from jail she befriends an old employee, and in order to help her daugther she will help build the biggest girl scout cookie company!"}, 	
+	{title: "The Night Before", description: "New comedy from Seth Rogan! on the night before christmas since they were kids three always hung out and celebrated christams in style. However with all of them growing up they decided to make it the last big blow-out on the night before!"}
+	];
+var action = [
+	{title: "Now You See Me 2"}, 
+	{title: "Captain America, Civil War"}, 
+	{title: "Concussion"}, 
+	{title: "Alligent"}];
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#f5f5f5"
+});
+
+var titleView = Ti.UI.createView({
+	height:60,
+	backgroundColor: "#3c7884",
+	top: 0
+});
+
+var border = Ti.UI.createView({
+	backgroundColor: "dbdbdb",
+	height: 1,
+	top: titleView.height + titleView.top
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "2015 & 2016 Upcoming Movies",
+	font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+	top: 30,
+	width: "100%",
+	textAlign: "center"
+});
+
+var movies = Ti.UI.createTableView({
+	data: comedies,
+	top: border.top + border.height
+});
+
+//var comedyHeader = Ti.UI.createView({
+	//title: "Upcoming Comedies",
+	//});
+
+var comedySection = Ti.UI.createTableViewSection({
+	headerTitle: "Upcoming Comedies",
+	//headerView: comedyHeader
+});
+
+//comedyHeader.add(comedySection);
+
+var actionSection = Ti.UI.createTableViewSection({
+	headerTitle: " Upcoming Action Movies"
+});
+
+var getDetail = function(){
+	var detailWindow = Ti.UI.createWindow({
+		backgroundColor: "#f5f5f5",
+	});
+		var detailTitleView = Ti.UI.createView({
+		height:60,
+		backgroundColor: "#fff",
+		top: 0
+	});
+	
+	var detailBorder = Ti.UI.createView({
+		backgroundColor: "dbdbdb",
+		height: 1,
+		top: titleView.height + titleView.top
+	});
+	
+	var detailTitleLabel = Ti.UI.createLabel({
+		text: this,
+		font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+		top: 30,
+		width: "100%",
+		textAlign: "center"
+	});
+	
+	detailTitleView.add(detailTitleLabel);
+	detailWindow.add(detailTitleView,detailBorder);
+	detailWindow.open();
+	
+};
+
+for(var i=0, j = comedies.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: comedies[i].title,
+		hasChild: true
+	});
+	comedySection.add(theRow);
+}
+
+for(var i=0, j = action.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: action[i].title,
+		hasChild: true
+	});
+	
+	actionSection.add(theRow);
+	
+	theRow.addEventListener("click",getDetail);
+}
+
+var movieSections = [comedySection, actionSection];
+
+movies.setData(movieSections);
+
+titleView.add(titleLabel);
+mainWindow.add(titleView);
+mainWindow.add(border, movies);
+mainWindow.open();
+
+
+
+ 
+
+

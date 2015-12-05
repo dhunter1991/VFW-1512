@@ -1,0 +1,19 @@
+var player = {
+	name: "Dylan",
+	level: 10,
+	coins: 5000
+};
+
+player.name;
+player.level;
+player.coins;
+player.status = "active";
+
+//for(var i=0; i<player.length; i++){
+	//console.log(player[i]);
+//}
+
+for(var prop in player ){
+	console.log(player[prop]);
+};
+

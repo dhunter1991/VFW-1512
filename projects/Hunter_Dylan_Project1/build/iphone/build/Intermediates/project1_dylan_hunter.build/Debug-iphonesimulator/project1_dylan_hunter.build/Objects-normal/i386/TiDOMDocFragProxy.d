@@ -1,11 +1,11 @@
 dependencies: \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiDOMDocFragProxy.m \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiDOMDocFragProxy.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiProxy.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiEvaluator.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/KrollContext.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiToJS.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiDOMDocFragProxy.m \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiDOMDocFragProxy.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiProxy.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiEvaluator.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/KrollContext.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiToJS.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -13,13 +13,13 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/KrollCallback.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/KrollObject.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiBase.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiThreading.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/TiPublicAPI.h \
-  /Users/school/Desktop/VFW\ 1512/projects/project1_dylan_hunter/build/iphone/Classes/GDataXMLNode.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/KrollCallback.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/KrollObject.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiBase.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiThreading.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/TiPublicAPI.h \
+  /Users/school/Desktop/VFW\ 1512/projects/Hunter_Dylan_Project1/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.1.sdk/usr/include/libxml2/libxml/xmlexports.h \

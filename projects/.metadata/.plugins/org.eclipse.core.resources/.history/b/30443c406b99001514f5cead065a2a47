@@ -1,0 +1,162 @@
+Titanium.UI.setBackgroundColor("#000");
+var allMovies = {
+	 "comedy": {
+	 	"theTitle": "comedies",
+	 	"comedyList":[
+		{title: "Zoolander 2", description: "This is the long awaited sequel to the 2001 hit staring Ben Stiler and Owen wilson. In this newly adapted film, they will pick up where they left off with the first film, as well as bringing back all of the original characters including Will Ferell."}, 	
+		{title: "Central Intelligence", description: "This is a new comedy staring the Rock and Kevin Hart! The story will follow CIA agent the rock, coming home for his high school reunion. When he gets there he enlists the help of Hart, who is now an accountant and missing his glory days from high school."}, 
+		{title: "The Boss", description: "New comedy from up and coming actress Melisa McCarthy. She was a CEO of a fourtane 500 company, when one day she is charged with fraud and goes to prison. upon her relse from jail she befriends an old employee, and in order to help her daugther she will help build the biggest girl scout cookie company!"}, 	
+		{title: "The Night Before", description: "New comedy from Seth Rogan! on the night before christmas since they were kids three always hung out and celebrated christams in style. However with all of them growing up they decided to make it the last big blow-out on the night before!"}
+		]
+	},
+	"actions":{
+		"theTitle": "action",
+		"actionList": [
+		{title: "Now You See Me 2", description: "Sequel to the hit movie staring Jessie Eisenburg about the 4 horseman magicians. In this stunning sequel we will get to see what happens after they have completed all of their test and they are now in the secret order of magicians!"}, 
+		{title: "Captain America, Civil War", description: "In this new super hero movie Captian america gets into some trouble and it has grave consiqunces!"}, 
+		{title: "Concussion", description: "Amazing true story about a man from Africa who traveled here looking to live in the land of the free and eventually became a doctor. However when he discovers brain damage problems related to football players he finds out that it goes deeper than he thought and must fight to prove whats right."}
+	
+	]
+  }
+};
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#f5f5f5"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	
+});
+
+var titleView = Ti.UI.createView({
+	height:60,
+	backgroundColor: "#3c7884",
+	top: 0
+});
+
+var border = Ti.UI.createView({
+	backgroundColor: "dbdbdb",
+	height: 1,
+	top: titleView.height + titleView.top
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "2015 & 2016 Upcoming Movies",
+	font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+	top: 30,
+	width: "100%",
+	textAlign: "center"
+});
+
+//var movies = Ti.UI.createTableView({
+	//data: allMovies,
+	//top: border.top + border.height
+//});
+
+//var comedyHeader = Ti.UI.createView({
+	//title: "Upcoming Comedies",
+	//});
+
+var comedySection = Ti.UI.createTableViewSection({
+	headerTitle: "Upcoming Comedies",
+	//headerView: comedyHeader
+});
+
+//comedyHeader.add(comedySection);
+
+var actionSection = Ti.UI.createTableViewSection({
+	headerTitle: " Upcoming Action Movies"
+});
+
+var getDetail = function(){
+	var detailWindow = Ti.UI.createWindow({
+		backgroundColor: "#f5f5f5",
+	});
+		var detailTitleView = Ti.UI.createView({
+		height:60,
+		backgroundColor: "#fff",
+		top: 0
+	});
+	
+	var detailBorder = Ti.UI.createView({
+		backgroundColor: "dbdbdb",
+		height: 1,
+		top: titleView.height + titleView.top
+	});
+	
+	var detailTitleLabel = Ti.UI.createLabel({
+		text: this.title,
+		font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+		top: 30,
+		width: "100%",
+		textAlign: "center"
+	});
+	
+	var detailText = Ti.UI.createLabel({
+		text: this.desc,
+		font: {fontsize: 14, fontFamily: "arial", fontWeight: "regular"},
+		top: detailBorder.height + detailBorder.top + 40,
+		left: 10,
+		right: 10
+	});
+	
+	var closeButton = Ti.UI.createLabel({
+		text: "go back",
+		backgroundColor: "#333",
+		color: "#fff",
+		height: 50,
+		font: { fontSize: 12, fontFamily: "aeiral"},
+		width: "100%",
+		bottom: 0,
+		textAllign: "center"
+		
+});			
+
+	var closeWindow = function(){
+		detailWindow.close();
+	};
+
+	closeButton.addEventListener("click", closeWindow);
+	
+	detailTitleView.add(detailTitleLabel);
+	detailWindow.add(detailTitleView, detailBorder, detailText, closeButton);
+	detailWindow.open();
+	
+};
+
+for(var i=0, j = allMovies.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: comedies[i].title,
+		desc: comedies[i].description,
+		hasChild: true
+	});
+	comedySection.add(theRow);
+	
+	theRow.addEventListener("click", getDetail);
+}
+
+for(var i=0, j = allMovies.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: action[i].title,
+		desc: action[i].description,
+		hasChild: true
+	});
+	
+	actionSection.add(theRow);
+	
+	theRow.addEventListener("click",getDetail);
+}
+
+var movieSections = [comedySection, actionSection];
+
+//movies.setData(movieSections);
+
+titleView.add(titleLabel);
+mainWindow.add(titleView);
+mainWindow.add(border);
+mainWindow.open();
+
+
+
+ 
+
+

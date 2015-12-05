@@ -1,0 +1,11 @@
+var message = "hello Dylan";
+
+var showMessage = function(){
+	alert(message);
+};
+
+exports.msg = message;
+exports.showMsg = showMessage;
+
+
+

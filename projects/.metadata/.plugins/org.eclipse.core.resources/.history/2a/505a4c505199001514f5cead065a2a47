@@ -1,0 +1,37 @@
+var player = [{name: "Dylan", coins: 1000}, {name: "Chris", coins: 100},{name: "Marie", coins: 500}];
+
+player[1];
+
+player[1].coins;
+
+var data = {
+	comedies: [
+	{name: "Zoolander 2", description: "sequel to the original made in...."},
+	{name: "the night before christmas", description: "movie about three friends...."},
+	{name: "angry birds", description: "movie about the addictive app game...."}
+	
+	],
+	Action: [
+	{name: "civil war", description: "movie about the battle between two ..."},
+	{name: "now you see me two", description: "the sequel to the amazing..."}
+	
+	],
+	
+};
+
+for(var x in data){
+	console.log(data[x]);
+	for(var i =0; i<data[x].length; i++){
+		console.log(data[x][i].name);
+	}
+};
+
+
+var loadFile = require("data");
+console.log(player[1]);
+alert(loadFile.msg);
+
+//loadFile.showMsg();
+console.log(player[1]);
+
+

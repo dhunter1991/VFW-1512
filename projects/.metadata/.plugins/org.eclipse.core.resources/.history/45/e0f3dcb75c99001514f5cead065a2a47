@@ -1,0 +1,70 @@
+Titanium.UI.setBackgroundColor("#000");
+
+var comedies = [{title: "Zoolander 2"}, {title: "Central Intelligence"}, {title: "The Boss"}, {title: "The Night Before"}];
+var action = [{title: "Now You See Me 2"}, {title: "Captain America, Civil War"}, {title: "Concussion"}, {title: "Alligent"}];
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#f5f5f5"
+});
+
+var titleView = Ti.UI.createView({
+	height:60,
+	backgroundColor: "#ggg",
+	top: 0
+});
+
+var border = Ti.UI.createView({
+	backgroundColor: "dbdbdb",
+	height: 1,
+	top: titleView.height + titleView.top
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "2015 & 2016 Upcoming Movies",
+	font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+	top: 30,
+	width: "100%",
+	textAlign: "center"
+});
+
+var movies = Ti.UI.createTableView({
+	data: comedies,
+	top: border.top + border.height
+});
+
+var comedySection = Ti.UI.createTableViewSection({
+	headerTitle: "Upcoming Comedies"
+});
+
+var actionSection = Ti.UI.createTableViewSection({
+	headerTitle: " Upcoming Action Movies"
+});
+
+for(var i=0, j = comedies.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: comedies[i].title
+	});
+	comedySection.add(theRow);
+}
+
+for(var i=0, j = action.length; i<j; i++){
+	var theRow = Ti.UI.createTableViewRow({
+		title: action[i].title
+	});
+	actionSection.add(theRow);
+}
+
+var movieSections = [comedySection, actionSection];
+
+movies.setData(movieSections);
+
+titleView.add(titleLabel);
+mainWindow.add(titleView);
+mainWindow.add(border, movies);
+mainWindow.open();
+
+
+
+ 
+
+
