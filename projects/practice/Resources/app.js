@@ -68,24 +68,10 @@ var titleLabel = Ti.UI.createLabel({
 	textAlign: "center"
 });
 
-var movies = Ti.UI.createTableView({
-	top: border.top + border.height,
-});
-
-var comedySection = Ti.UI.createTableViewSection({
-	headerTitle: "Upcoming Comedies",
-	footerTitle: "2015 and 2016",
-});
-
-var actionSection = Ti.UI.createTableViewSection({
-	headerTitle: " Upcoming Action Movies",
-	footerTitle: "2015-16 Action films"
-});
-
 var makeUI = function(){
 	var spacing = 80;
 	for(j in allMovies){
-		var titleLabel = Ti.UI.createLabel({
+		var titleLabel = Ti.UI.createTableView({
 			text: allMovies[j].theTitle,
 			left: 15,
 			right: 15,
@@ -95,11 +81,24 @@ var makeUI = function(){
 			font: {fontSize: 22, fontFamily: "Arial"},
 			color: "#fafafa"	
 		});
+
+		var comedySection = Ti.UI.createTableViewSection({
+			headerTitle: "Comedies",
+			footerTitle: "2015 and 2016",
+		});
+
+		var actionSection = Ti.UI.createTableViewSection({
+			headerTitle: "Action Films",
+			footerTitle: "2015-16"
+		});
+		
+		var movieSections = [comedySection, actionSection];
+		titleLabel.setData(movieSections);
 		
 		spacing = titleLabel.top + titleLabel.height + 10;
 		console.log(spacing);
 		for(n in allMovies[j].movieList){
-			var itemLabel = Ti.UI.createLabel({
+			var itemLabel = Ti.UI.createTableViewRow({
 			text: allMovies[j].movieList[n].title,
 			details: allMovies[j].movieList[n].description,
 			left: 30,
@@ -113,9 +112,13 @@ var makeUI = function(){
 		
 		spacing = itemLabel.top + itemLabel.height + 10;
 		itemLabel.addEventListener("click", makeUI);
+		comedySection.add(itemLabel);
+		actionSection.add(itemLabel);
+		
 	}
 	mainWindow.add(titleLabel);
 	spacing = itemLabel.top + itemLabel.height + 40;
+	navWindow.open();
 	}
 };
 

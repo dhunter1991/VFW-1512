@@ -54,7 +54,7 @@ var comedySection = Ti.UI.createTableViewSection({
 });
 
 var actionSection = Ti.UI.createTableViewSection({
-	headerTitle: "Action Films",
+	headerTitle: "Action",
 	footerTitle: "2015-16"
 });
 
