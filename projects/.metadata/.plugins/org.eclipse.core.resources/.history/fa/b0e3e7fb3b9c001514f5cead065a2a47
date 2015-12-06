@@ -1,0 +1,29 @@
+Titanium.UI.setBackgroundColor("#000");
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#ccc"
+});
+
+var view = Ti.UI.createView({
+	backgroundColor: "#49f804",
+	top: 375,
+	left: 50,
+	right: 50,
+	borderRadius: 5,
+	height: 50
+});
+
+var viewText = Ti.UI.createLabel({
+	text: "click to view gallery",
+	textAllign: "center",
+	color: "#fff",
+	font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
+});
+
+mainWindow.add(view);
+view.add(viewText);
+mainWindow.open();
+
+
+
+

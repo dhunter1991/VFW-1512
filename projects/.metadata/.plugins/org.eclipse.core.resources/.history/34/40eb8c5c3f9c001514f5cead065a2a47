@@ -1,0 +1,70 @@
+Titanium.UI.setBackgroundColor("#000");
+
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var pHeight = Ti.Platform.displayCaps.platformHeight;
+var itemCount = 30;
+var rowCount = 3;
+var margin = 10;
+var trueCanvasWidth = rowCount + margin;
+var size = rowCount*itemCount;
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	layout: "horizontal"
+});
+
+var border = Ti.UI.createView({
+	backgroundColor: "#cecece",
+	height: 1,
+	width: pWidth,
+	top: 20
+});
+
+//var view = Ti.UI.createView({
+	//backgroundColor: "#49f804",
+	//top: 375,
+	//left: 50,
+	//right: 50,
+	//borderRadius: 5,
+	//height: 50
+//});
+
+//var viewText = Ti.UI.createLabel({
+	//text: "click to view gallery",
+	//textAllign: "center",
+	//color: "#fff",
+	//font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
+//});
+
+var viewContainer = Ti.UI.createScrollView({
+	top: 0,
+	width: pWidth,
+	contentWidth: pWidth,
+	height: pHeight-border.height-border.top,
+	backgroundColor: "#fef",
+	showVerticleScrollIndicator: true,
+	layout: "horizantal"
+});
+
+for(var i=0; i<itemCount; i++){
+	var view = Ti.UI.createView({
+		backgroundColor: "#33CCFF",
+		top: margin,
+		left: margin,
+		width: size,
+		height: size
+	});
+	var text = Ti.UI.createLabel({
+		text: i<1,
+		color: "#fff"
+	});
+	view.add(text);
+	viewContainer.add(view);
+}
+
+mainWindow.add(border, viewContainer);
+mainWindow.open();
+
+
+
+
