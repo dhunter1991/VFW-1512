@@ -1,6 +1,6 @@
 var getDetail = function(){
 	var detailWindow = Ti.UI.createWindow({
-		//title: "2015 and 2016 Upcoming Movies",
+		title: "2015 and 2016 Upcoming Movies",
 		backgroundColor: "#f5f5f5",
 	});
 		var detailTitleView = Ti.UI.createView({
