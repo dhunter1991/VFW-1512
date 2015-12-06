@@ -1,6 +1,6 @@
 var allMovies = {
 	"comedies": {
-		"theTitle": "2015 comedies",
+		"theTitle": "2015 and 2016 comedies",
 		"movieList": [
 		
 		{"title": "Zoolander 2",
@@ -20,7 +20,7 @@ var allMovies = {
 	},
 	
 	"Action":{
-		"theTitle": "2016 Action movies",
+		"theTitle": " 2015 and 2016 Action movies",
 		"movieList": [
 		{
 			"title": "Now You See Me 2", 
@@ -61,70 +61,113 @@ var border = Ti.UI.createView({
 });
 
 var titleLabel = Ti.UI.createLabel({
-	text: "2015 & 2016 Upcoming Movies",
+	text: "New Movies",
 	font: {fontSize: 20, fontFamily: "arial", fontWeight: "bold"},
 	top: 35,
 	width: "100%",
 	textAlign: "center"
 });
 
+var movies = Ti.UI.createTableView({
+	top: border.top + border.height,
+});
+
+var comedySection = Ti.UI.createTableViewSection({
+	headerTitle: "Comedies",
+	footerTitle: "2015 and 2016",
+});
+
+var actionSection = Ti.UI.createTableViewSection({
+	headerTitle: "Action",
+	footerTitle: "2015-16"
+});
+
+var movieSections = [comedySection, actionSection];
+
+movies.setData(movieSections);
+
+var getDetail = function(){
+	var detailWindow = Ti.UI.createWindow({
+		title: this.text,
+		backgroundColor: "#f5f5f5",
+	});
+	
+		var detailTitleView = Ti.UI.createView({
+		height:65,
+		backgroundColor: "#3c7884",
+		top: 0
+	});
+	
+	var detailBorder = Ti.UI.createView({
+		backgroundColor: "dbdbdb",
+		height: 1,
+		top: titleView.height + titleView.top
+	});
+	
+	var detailTitleLabel = Ti.UI.createLabel({
+		text: this.title,
+		font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+		top: 30,
+		width: "100%",
+		textAlign: "center"
+	});
+	
+	var detailText = Ti.UI.createLabel({
+		text: this.details,
+		font: {fontsize: 14, fontFamily: "arial", fontWeight: "regular"},
+		top: detailBorder.height + detailBorder.top + 40,
+		left: 10,
+		right: 10
+	});
+	
+	var closeButton = Ti.UI.createLabel({
+		text: "go back",
+		backgroundColor: "#333",
+		color: "#fff",
+		height: 50,
+		font: { fontSize: 12, fontFamily: "aeiral"},
+		width: "100%",
+		bottom: 0,
+		textAllign: "center"
+		
+});
+
+	var closeWindow = function(){
+		detailWindow.close();
+	};
+
+	closeButton.addEventListener("click", closeWindow);
+	
+	detailTitleView.add(detailTitleLabel);
+	detailWindow.add(detailTitleView, detailBorder, detailText, closeButton);
+	navWindow.openWindow(detailWindow);
+	
+};
+
 var makeUI = function(){
-	var spacing = 80;
 	for(j in allMovies){
-		var titleLabel = Ti.UI.createTableView({
+		var titleLabel = Ti.UI.createText({
 			text: allMovies[j].theTitle,
-			left: 15,
-			right: 15,
-			top: spacing,
-			height: 25,
-			backgroundColor: "#333",
-			font: {fontSize: 22, fontFamily: "Arial"},
-			color: "#fafafa"	
-		});
-
-		var comedySection = Ti.UI.createTableViewSection({
-			headerTitle: "Comedies",
-			footerTitle: "2015 and 2016",
-		});
-
-		var actionSection = Ti.UI.createTableViewSection({
-			headerTitle: "Action Films",
-			footerTitle: "2015-16"
 		});
 		
-		var movieSections = [comedySection, actionSection];
-		titleLabel.setData(movieSections);
-		
-		spacing = titleLabel.top + titleLabel.height + 10;
-		console.log(spacing);
 		for(n in allMovies[j].movieList){
 			var itemLabel = Ti.UI.createTableViewRow({
 			text: allMovies[j].movieList[n].title,
 			details: allMovies[j].movieList[n].description,
-			left: 30,
-			right: 15,
-			top: spacing,
-			height: 25,
-			backgroundColor: "#fff",
-			font: {fontSize: 22, fontFamily: "Arial"},
-			color: "#333"
+			hasChild: true
 		});
 		
-		spacing = itemLabel.top + itemLabel.height + 10;
-		itemLabel.addEventListener("click", makeUI);
-		comedySection.add(itemLabel);
-		actionSection.add(itemLabel);
+		mainWindow.add(titleLabel);
+		theRow.addEventListener("click", getDetail);
 		
 	}
-	mainWindow.add(titleLabel);
-	spacing = itemLabel.top + itemLabel.height + 40;
-	navWindow.open();
+	mainWindow.add(itemLabel);
 	}
 };
 
 
 titleView.add(titleLabel);
-mainWindow.add( titleView, border);
+mainWindow.add( titleView, border, movies);
 makeUI();
 navWindow.open();
 
