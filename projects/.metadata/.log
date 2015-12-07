@@ -18372,3 +18372,483 @@ java.lang.IllegalArgumentException: Source type cannot be null or empty
 
 !ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 20:59:20.387
 !MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:37:26.380
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:37:26.380
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:44:15.439
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:44:15.440
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:44:47.731
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:44:47.731
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:45:16.293
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:45:16.293
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:46:13.073
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:46:13.074
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:50:13.313
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:50:13.313
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:50:32.259
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:50:32.259
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:52:25.737
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:52:25.737
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:53:44.893
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:53:44.894
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:54:03.041
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:54:03.041
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:56:45.075
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:56:45.076
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:58:00.046
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:58:00.046
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:58:40.665
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 22:58:40.665
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.aptana.git.core 4 1 2015-12-06 23:00:56.627
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:00:56.627
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:00:56.628
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:00:56.628
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:04:53.241
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:04:53.242
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.aptana.git.core 4 1 2015-12-06 23:07:09.041
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:07:09.041
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:07:09.042
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:07:09.043
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:13:53.236
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:13:53.236
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:18:24.044
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:18:24.044
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:19:08.889
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:19:08.889
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:22:07.257
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:22:07.257
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:22:24.165
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:22:24.165
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:23:11.199
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:23:11.199
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:23:28.780
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:23:28.780
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:24:33.799
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:24:33.799
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:24:59.292
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:24:59.292
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:25:21.596
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:25:21.597
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:26:37.363
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:26:37.363
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:28:05.555
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:28:05.556
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:28:29.911
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:28:29.911
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:29:23.834
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:29:23.835
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:29:42.797
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:29:42.797
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:30:33.851
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:30:33.852
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.aptana.git.core 4 1 2015-12-06 23:31:50.689
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:31:50.689
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:31:50.690
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-12-06 23:31:50.691
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/school/Desktop/VFW 1512"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:32:25.058
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:32:25.058
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:33:05.572
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:33:05.572
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:33:38.023
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:33:38.023
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:35:14.746
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:35:14.746
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:35:47.618
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:35:47.618
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:36:52.420
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:36:52.420
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:39:43.102
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:39:43.102
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:40:47.166
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-06 23:40:47.166
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
