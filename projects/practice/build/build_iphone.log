@@ -1,5 +1,5 @@
 
-12/5/2015, 7:13:38 PM
+12/7/2015, 11:48:03 AM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/practice --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449360815979.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/practice --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449506880883.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
 [TRACE]  [ioslib] Found iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
@@ -64,7 +64,10 @@ Command
 [DEBUG]  Recreating /Users/school/Desktop/VFW 1512/projects/practice/build/iphone
 [TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-f6261bed65572c9346295c777fe62f5aad21b572.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 22776.419 sec ago
+[TRACE]  last build was 168840.911 sec ago, need a re-verify and re-build
+[TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"d2cf476abac78e8b6a5e0ef50f5e9125f1f4e79e 8tBnO+91fDZO2GzQthvi/VhDN0fYGETSdtBUwcyLMJ6Bzspygoy1ZyZqu5lEn/6D3EeVQooNfvMLy7v+sVJgc8e24++bMOs9TBR1SNizuMikJTwtqni8WkgniR8uZzBkU2lTVWyx77ggzPw6vIMy5kDQ7RrMNjF1dorqlUDixgWH193wQaiwZFc+Qy4JjXGR1hrb1L+ExzHoa8+n67r/yGMPCTFcuQ5tonYnI+7+stWLS4fv+/O4rIkF7xcfbWx1jADGQAzjE2XuF8As4zSDtB7Tn6nO6bWGuWneAZWmiX2LLSgSgT7Q84LNnbKysBPjyhPX025kJaO3F4/32yW0I70Iea7ofEk+N7tEPASHL5WpYwRGnDSeB6pNQ8hCKeogcgJ2Y3DikN6gi3NH/xNvLS2MwDILZbICjYx2k2AOKxTiekzb31xbUvduxPzwhJA/+KYY2I4hyRsHer2rN/SvYBMOxK7m4wetzXXJVeGaffJ5B+KDc6bKE+r5uzDmJwxkoMyrElDMrZ2coOQmbZp98yvjecYOfSdbuP1BAlmpGMF8Ig4if/+BhqfIYlDmEj8Cz7LbCdgxN03t1D4VutuG7uaCQL/nLCwFijUwByuFGWaRqyPbiK4mOYr9qJtN7ZgdszIDBMJk5JgajkMM56bXrXlD8CUfdhIF2Mge0b9GIbxJLxNZRNCIrnWbLu5mR2TaRKsw+vn1iI4cqLfYAZu58Ckwk9UaQ8ktehPXqqMwv/2QrKH9OltZh5oI57uXPf7Fipkt5m/ItAhka/y/JsY7vITx6zCtZV7KlnBwYn4MKUA=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"66d9077c-5841-453b-9bbb-3c9414cbb606","appid":"com.dylan.practice","name":"practice","org_id":100083291,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.dylan.practice</id>\n  <name>practice</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2015 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>66d9077c-5841-453b-9bbb-3c9414cbb606</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules/>\n    <deployment-targets>\n      <target device=\"android\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">5660fa232fb374ee4264f80d</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"JscqGJKrmdCQeTOviLExiQ==","pepper":"kxjShetB4RGBqL59EVDKrg==","hmacKey":"3PeC7ZklCkDE1bnX79GDVQ==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"5665b8454a522f090fa880a0","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -693,34 +696,34 @@ Command
 [DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.xcodeproj/xcshareddata/xcschemes/practice.xcscheme
 [INFO]   Cleaning Xcode derived data
 [DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean
-[TRACE]  2015-12-05 19:13:40.627 xcodebuild[30958:4695022] [MT] PluginLoading: Required plug-in compatibility UUID 7265231C-39B4-402C-89E1-16167C4CC990 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+[TRACE]  2015-12-07 11:48:08.765 xcodebuild[65431:6905816] [MT] PluginLoading: Required plug-in compatibility UUID 7265231C-39B4-402C-89E1-16167C4CC990 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
 [TRACE]  === CLEAN TARGET practice OF PROJECT practice WITH THE DEFAULT CONFIGURATION (Release) ===
 [TRACE]  Check dependencies
 [TRACE]  [BEROR]Code Sign error: No code signing identities found: No valid signing identities (i.e. certificate and private key pair) were found.
 [TRACE]  Create product structure
 [TRACE]  /bin/mkdir -p /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean build/Release-iphoneos/practice.app
 [TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app
 [TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-aekpeckhkeqzgwhkskkatyglqbln/practice_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-aekpeckhkeqzgwhkskkatyglqbln/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-eevfgotcnbwhogcjuqwlfaxfenrs/practice_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-eevfgotcnbwhogcjuqwlfaxfenrs/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-ehtdutrlsojdjmaqswheucqsmfbf/practice_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-ehtdutrlsojdjmaqswheucqsmfbf/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-dbbkbzdeovaejzggonravixotbcz/practice_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-dbbkbzdeovaejzggonravixotbcz/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean build/practice.build/Release-iphoneos/practice.build
-[TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/practice.build/Release-iphoneos/practice.build
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-asrsfutuoqrbyvaivuihhiehkfnx/practice_Prefix.pch.pch
 [TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-asrsfutuoqrbyvaivuihhiehkfnx/practice_Prefix.pch.pch
 [TRACE]  Clean.Remove clean build/Release-iphoneos/practice.app.dSYM
 [TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app.dSYM
+[TRACE]  Clean.Remove clean build/practice.build/Release-iphoneos/practice.build
+[TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/practice.build/Release-iphoneos/practice.build
 [TRACE]  ** CLEAN SUCCEEDED **
 [INFO]   Creating debugger and profiler plists
 [DEBUG]  Skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/debugger.plist
@@ -761,4 +764,4 @@ Command
 [DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default@2x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/app.js
+[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/assets/app_js

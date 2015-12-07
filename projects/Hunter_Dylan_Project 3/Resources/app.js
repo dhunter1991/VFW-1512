@@ -30,7 +30,7 @@ var viewText = Ti.UI.createLabel({
 	font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
 });
 
-var imageWindow = function(){
+var imageWindow = function(dataSource){
 	
 	var mainImageWindow = Ti.UI.createWindow({
 		backgroundColor: "#fff",
@@ -69,38 +69,38 @@ var imageWindow = function(){
 			width: view.width*3
  
 		});
-		view.add(thumb);
-		viewContainer.add(view);	
-	}
-		mainImageWindow.add(border);
-		mainImageWindow.add(viewContainer);
-		mainImageWindow.open();
-};	
+		
 		var oneImageWindow = function(){
 			var imageWindow2 = Ti.UI.createWindow({
 				backgroundColor: "#fff",
 				layout: "horizontal"
-		});
+			});
 			var imageView = Ti.UI.createImageView({
-				image: dataSource,
+				image: thumb.image,
 				backgroundColor: "#333",
-				top: 10,
+				top: 20,
 				left: 25,
 				right: 25,
-				bottome: 200
-		});
+				bottom: 200
+			});
 			
-	
-		imageWindow2.add(imageView);
+				imageWindow2.add(imageView);
+				imageWindow2.open();
+		
+	};
+		view.add(thumb);
+		viewContainer.add(view);
 		thumb.addEventListener("click", function(event){
-			oneImageWindow(event.source); });
-		imageWindow2.open();
-		
-		};
-		
-	
+			oneImageWindow(event.source);
+		});	
+	}
+		mainImageWindow.add(border);
+		mainImageWindow.add(viewContainer);
+		mainImageWindow.open();
 
+		
 
+};
 galleryButton.addEventListener("click", imageWindow);
 
 
