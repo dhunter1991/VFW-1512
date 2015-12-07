@@ -1,15 +1,17 @@
-Titanium.UI.setBackgroundColor("#000");
+Titanium.UI.setBackgroundColor("#d3d3d3");
 
+
+var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "images");
+var imageFiles = imagesFolder.getDirectoryListing();
 var pWidth = Ti.Platform.displayCaps.platformWidth;
 var pHeight = Ti.Platform.displayCaps.platformHeight;
-var itemCount = 30;
-var rowCount = 3;
+var rowCount = 4;
 var margin = 10;
-var trueCanvasWidth = rowCount + margin;
-var size = rowCount*itemCount;
+var trueCanvasWidth = rowCount+margin;
+var size = pWidth/margin+35;
 
 var mainWindow = Ti.UI.createWindow({
-	backgrounColor: "#fff"
+	backgrounColor: "#d3d3d3"
 });
 
 var galleryButton = Ti.UI.createView({
@@ -29,6 +31,7 @@ var viewText = Ti.UI.createLabel({
 });
 
 var imageWindow = function(){
+	
 	var mainImageWindow = Ti.UI.createWindow({
 		backgroundColor: "#fff",
 		layout: "horizontal"
@@ -43,37 +46,42 @@ var imageWindow = function(){
 	
 	var viewContainer = Ti.UI.createScrollView({
 		top: 0,
+		layout: "horizontal",
 		width: pWidth,
-		contentWidth: pWidth,
 		height: pHeight-border.height-border.top,
-		backgroundColor: "#fef",
+		contentWidth: pWidth,
 		showVerticleScrollIndicator: true,
-		layout: "horizontal"
+		backgroundColor: "#fef"
 	});
 	
-	for(var i=0; i<itemCount; i++){
+	for(var i=0; i<imageFiles.length; i++){
 		var view = Ti.UI.createView({
 			backgroundColor: "#33CCFF",
-			top: margin,
-			left: margin,
+			top: 10,
+			left: 10,
 			width: size,
 			height: size
 		});
-		var text = Ti.UI.createLabel({
-			text: i+1,
-			color: "#fff"
+	
+		var thumb = Ti.UI.createImageView({
+			image: "images/" + imageFiles[i],
+			top: 0,
+			width: view.width*3
+ 
 		});
-		view.add(text);
+		view.add(thumb);
 		viewContainer.add(view);
-		mainImageWindow.add(view, border);
+		view.addEventListener("click", imageWindow);
+				
+	}
+		mainImageWindow.add(border);
 		mainImageWindow.add(viewContainer);
 		mainImageWindow.open();
-		
-	}
 	
 };
 
 galleryButton.addEventListener("click", imageWindow);
+
 
 galleryButton.add(viewText);
 mainWindow.add(galleryButton);

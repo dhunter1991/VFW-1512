@@ -1,0 +1,92 @@
+Titanium.UI.setBackgroundColor("#d3d3d3");
+
+
+var imagesFolder = Ti.Filesystem.getFiles(ti.Filesystem.resourcesDirectory, "images");
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var pHeight = Ti.Platform.displayCaps.platformHeight;
+var imageFiles = imagesFolder.getDirectoryListing();
+var rowCount = 3;
+var margin = 10;
+var trueCanvasWidth = rowCount + margin;
+var size = rowCount*itemCount;
+
+var mainWindow = Ti.UI.createWindow({
+	backgrounColor: "#d3d3d3"
+});
+
+var galleryButton = Ti.UI.createView({
+	backgroundColor: "#49f804",
+	top: 375,
+	left: 50,
+	right: 50,
+	borderRadius: 5,
+	height: 50
+});
+	
+var viewText = Ti.UI.createLabel({
+	text: "click to view gallery",
+	textAllign: "center",
+	color: "#fff",
+	font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
+});
+
+var imageWindow = function(){
+	
+	var mainImageWindow = Ti.UI.createWindow({
+		backgroundColor: "#fff",
+		layout: "horizontal"
+	});
+	
+	var border = Ti.UI.createView({
+		backgroundColor: "#cecece",
+		height: 1,
+		width: pWidth,
+		top: 20
+	});
+	
+	var viewContainer = Ti.UI.createScrollView({
+		top: 0,
+		layout: "horizontal",
+		width: pWidth,
+		contentWidth: pWidth,
+		height: pHeight-border.height-border.top,
+		showVerticleScrollIndicator: true,
+		backgroundColor: "#fef"
+	});
+	
+	for(var i=0; i<imageFiles; i++){
+		var view = Ti.UI.createView({
+			backgroundColor: "#33CCFF",
+			top: 10,
+			left: 10,
+			width: size,
+			height: size
+		});
+		var text = Ti.UI.createLabel({
+			text: i+1,
+			color: "#fff"
+		});
+		var images = Ti.UI.createImageView({
+			image: "images/" + imageFiles[i],
+			top: 0,
+			width: view.width*2 
+		});
+		
+		viewContainer.add(view);
+		
+	}
+		view.add(text);
+		mainImageWindow.add(viewContainer);
+		mainImageWindow.add(view, border);
+		mainImageWindow.open();
+};
+
+galleryButton.addEventListener("click", imageWindow);
+
+galleryButton.add(viewText);
+mainWindow.add(galleryButton);
+mainWindow.open();
+
+
+
+
