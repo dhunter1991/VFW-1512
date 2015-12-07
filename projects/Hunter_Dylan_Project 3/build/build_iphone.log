@@ -1,5 +1,5 @@
 
-12/7/2015, 12:16:56 PM
+12/7/2015, 1:45:30 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3 --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 0BD366A4-7703-42B2-8553-2316EF24C056 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449508614268.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3 --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 0BD366A4-7703-42B2-8553-2316EF24C056 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449513928056.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 0BD366A4-7703-42B2-8553-2316EF24C056
 [TRACE]  [ioslib] Found iOS Simulator UDID 0BD366A4-7703-42B2-8553-2316EF24C056
@@ -62,7 +62,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-5162fd2137df037186c9fbe4f5ea5f3bafd8f1b8.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 2527.268 sec ago
+[TRACE]  optimizing build, last build was 7841.168 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -116,13 +116,14 @@ Command
 [DEBUG]  Copying resources
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/KS_nav_ui.png
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/KS_nav_views.png
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images11.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images12.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images13.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images14.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images15.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images16.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/5-0 grind.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/air grind.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/bowl air.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/bowl contest.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/grind.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/halfPipe.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/hat board.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/huge air.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images17.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images18.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images19.jpg
@@ -136,18 +137,17 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images27.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images28.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images29.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images3.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images30.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images31.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images32.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images33.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images34.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images4.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images5.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images6.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images7.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images8.jpg
-[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/images9.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/rail.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/skate contest.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/skate day.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/street lights.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/sunset at the park.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/images/wall ride.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
@@ -156,6 +156,7 @@ Command
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
 [DEBUG]  Overwriting /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/app.js
+[DEBUG]  Overwriting /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/Resources/data.js => /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/data.js
 [INFO]   Writing app properties
 [TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3/build/iphone/build/Products/Debug-iphonesimulator/Hunter_Dylan_Project 3.app/_app_props_.json
 [DEBUG]  Using default application routing
@@ -171,13 +172,13 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 68ms
+[INFO]   Finished building the application in 1s 154ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 5s
 [TRACE]  [ioslib]   UDID    = 0BD366A4-7703-42B2-8553-2316EF24C056
 [TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.1.1
-[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/0BD366A4-7703-42B2-8553-2316EF24C056/data/Containers/Data/Application/DF395D26-E554-4364-AB4A-12BBC220F4DA/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/0BD366A4-7703-42B2-8553-2316EF24C056/data/Containers/Data/Application/96720D54-B9CA-4140-A6D2-9C0399314765/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
 [TRACE]  [ioslib] Tailing iPhone 5s Simulator system log: /Users/school/Library/Logs/CoreSimulator/0BD366A4-7703-42B2-8553-2316EF24C056/system.log
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 0BD366A4-7703-42B2-8553-2316EF24C056
 [TRACE]  [ioslib] iPhone 5s Simulator was already shutdown
@@ -189,5 +190,5 @@ Command
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 0BD366A4-7703-42B2-8553-2316EF24C056 com.dylan.project3
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/0BD366A4-7703-42B2-8553-2316EF24C056/data/Containers/Data/Application/38963751-E01B-46D8-B783-17F31A42E32F/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/0BD366A4-7703-42B2-8553-2316EF24C056/data/Containers/Data/Application/B8523CE3-9297-4B10-9885-6DC294119396/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
 [TRACE]  [Hunter_Dylan_Project 3] assertion failed: 14F27 13B137: libxpc.dylib + 58126 [0F47719F-3076-3664-A64B-CEB6901B254D]: 0x7d

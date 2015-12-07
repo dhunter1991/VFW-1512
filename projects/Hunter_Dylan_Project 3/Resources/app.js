@@ -11,7 +11,7 @@ var trueCanvasWidth = rowCount+margin;
 var size = pWidth/margin+35;
 
 var mainWindow = Ti.UI.createWindow({
-	backgrounColor: "#d3d3d3"
+	backgroundColor: "#3e3d3f"
 });
 
 var galleryButton = Ti.UI.createView({
@@ -22,12 +22,28 @@ var galleryButton = Ti.UI.createView({
 	borderRadius: 5,
 	height: 50
 });
+
+var titleView = Ti.UI.createView({
+	top: 0,
+	height: 65,
+	backgroundColor: "#3c7884",
+	
+});
 	
 var viewText = Ti.UI.createLabel({
 	text: "click to view gallery",
 	textAllign: "center",
 	color: "#fff",
 	font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "italic", },
+});
+
+
+var titleLabel = Ti.UI.createLabel({
+	text: "Image Gallery of Skateboarding",
+	font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold"},
+	top: 30,		
+	width: "100%",
+	textAlign: "center"
 });
 
 var imageWindow = function(dataSource){
@@ -70,24 +86,58 @@ var imageWindow = function(dataSource){
  
 		});
 		
-		var oneImageWindow = function(){
+		var oneImageWindow = function(dataSource){
 			var imageWindow2 = Ti.UI.createWindow({
-				backgroundColor: "#fff",
+				backgroundColor: "#ccc",
 				layout: "horizontal"
 			});
 			var imageView = Ti.UI.createImageView({
-				image: thumb.image,
-				backgroundColor: "#333",
+				image:dataSource.image,
+				backgroundColor: "#ccc",
 				top: 20,
-				left: 25,
-				right: 25,
-				bottom: 200
+				width: pWidth,
+				bottom: 100
 			});
 			
-				imageWindow2.add(imageView);
-				imageWindow2.open();
-		
+			var closeButton = Ti.UI.createLabel({
+				text: "Close Window",
+				textAllign: "center",
+				backgroundColor: "#000",
+				color: "#ccc",
+				bottom: 0,
+				height: 50,
+				font: { fontSize: 12, fontFamily: "aeiral"},
+				width: "100%",
+			});
+			
+			var imageTitle = Ti.UI.createView({
+				height:50,
+				backgroundColor: "#3c7884",
+				top: 0
+			});
+			
+			var titleLabel = Ti.UI.createLabel({
+					text: dataSource.image,
+					font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold", fontColor: "#fdfcfc"},
+					top: 20,
+					width: "100%",
+					textAlign: "center"
+			});
+			
+			var closeWindow = function(){
+				imageWindow2.close();
+			};
+			
+			imageTitle.add(titleLabel);
+			imageWindow2.add(imageTitle);
+			imageWindow2.add(closeButton);
+			imageWindow2.add(imageView);
+			imageWindow2.open();
+			closeButton.addEventListener("click", closeWindow);
 	};
+	
+
+	
 		view.add(thumb);
 		viewContainer.add(view);
 		thumb.addEventListener("click", function(event){
@@ -105,7 +155,8 @@ galleryButton.addEventListener("click", imageWindow);
 
 
 galleryButton.add(viewText);
-mainWindow.add(galleryButton);
+titleView.add(titleLabel);
+mainWindow.add(galleryButton, titleView);
 mainWindow.open();
 
 
