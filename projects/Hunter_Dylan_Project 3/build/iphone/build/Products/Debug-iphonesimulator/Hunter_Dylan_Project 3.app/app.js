@@ -6,8 +6,8 @@ var pWidth = Ti.Platform.displayCaps.platformWidth;
 var pHeight = Ti.Platform.displayCaps.platformHeight;
 var rowCount = 4;
 var margin = 10;
-var trueCanvasWidth = rowCount+margin;
-var size = pWidth/margin+35;
+var trueCanvasWidth = pWidth-rowCount-margin;
+var size = trueCanvasWidth/rowCount-margin;
 
 var mainWindow = Ti.UI.createWindow({
 	backgroundColor: "#000"
