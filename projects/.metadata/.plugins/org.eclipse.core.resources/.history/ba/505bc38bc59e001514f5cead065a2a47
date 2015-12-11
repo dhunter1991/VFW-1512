@@ -1,0 +1,56 @@
+var mainWindow = Titanium.UI.createWindow({
+	backgroundColor: "#000"
+});
+
+var title = Ti.UI.createView({
+	top: 0,
+	height: 50,
+	backgroundColor: "#3c7884"
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "New Movie details",
+	textAllign: "center",
+	color: "#fff",
+	font: {fontSize: 20, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", },
+	
+});
+
+var imageView = Ti.UI.createView({
+	top: title.top,
+	height: 75,
+	backgroundColor: "red",
+});
+
+var imageText = Ti.UI.createLabel({
+	text: "Gallery",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var dataView = TI.UI.createView({
+	top: imageView.top+ title.top,
+	height: 75,
+	backgrounfColor: "blue"
+});
+
+var dataText = Ti.UI.createLabel({
+	text: "Details",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var customView = Ti.UI.createView({
+	top: imageView.top+title.top+dataView,
+	height: 75,
+	backgroundColor: "yellow"
+});
+
+title.add(titleLabel);
+imageView.add(imageText);
+dataView.add(dataText);
+mainWindow.add(title, imageView, dataView, customView);
+mainWindow.open();
+

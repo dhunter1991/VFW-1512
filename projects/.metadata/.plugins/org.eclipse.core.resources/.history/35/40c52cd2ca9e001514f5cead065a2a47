@@ -1,0 +1,55 @@
+var mainWindow = Titanium.UI.createWindow({
+	backgroundColor: "#000",
+	title: "New Movie Details",
+	textAllign: "center"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+var imageView = Ti.UI.createView({
+	top: 0,
+	height: 100,
+	backgroundColor: "green",
+});
+
+var imageText = Ti.UI.createLabel({
+	text: "Gallery",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var dataView = Ti.UI.createView({
+	top: imageView.top+ imageView.height,
+	height: 100,
+	backgroundColor: "blue"
+});
+
+var dataText = Ti.UI.createLabel({
+	text: "Details",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var customView = Ti.UI.createView({
+	top: dataView.top+dataView.height,
+	height: 100,
+	backgroundColor: "red"
+});
+
+var customText =Ti.UI.createLabel({
+	text: "Custom",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+imageView.add(imageText);
+dataView.add(dataText);
+customView.add(customText);
+mainWindow.add(imageView, dataView, customView);
+navWindow.open();
+

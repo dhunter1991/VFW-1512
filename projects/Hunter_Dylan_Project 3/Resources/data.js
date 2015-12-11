@@ -36,7 +36,7 @@ var imageWindow = function(dataSource){
 		height: 50,
 		font: { fontSize: 16, fontFamily: "aeiral", fontWeight: "bold"},
 		width: "100%",
-		bottom: 0
+		top: 0
 	});
 		
 	var viewContainer = Ti.UI.createScrollView({
@@ -80,18 +80,6 @@ var imageWindow = function(dataSource){
 				top: 20,
 				width: pWidth,
 			});
-			
-			var closeButton = Ti.UI.createLabel({
-				text: "Close Window",
-				textAllign: "center",
-				backgroundColor: "#fff",
-				color: "#000",
-				bottom: 0,
-				height: 50,
-				font: { fontSize: 16, fontFamily: "aeiral", fontWeight: "bold"},
-				width: "100%",
-			});
-			
 			var imageTitle = Ti.UI.createView({
 				height:50,
 				backgroundColor: "#3c7884",
@@ -99,22 +87,33 @@ var imageWindow = function(dataSource){
 			});
 			
 			var titleLabel = Ti.UI.createLabel({
-					text: dataSource.image,
-					font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold", fontColor: "#fdfcfc"},
-					color: "#fff",
-					top: 20,
-					width: "100%",
-					textAlign: "center"
+				text: dataSource.image,
+				font: {fontSize: 20, fontFamily: "aerial", fontWeight: "bold", fontColor: "#fdfcfc"},
+				color: "#fff",
+				top: 20,
+				width: "100%",
+				textAlign: "center"
+			});
+			
+			var closeButton = Ti.UI.createLabel({
+				text: "Close Window",
+				backgroundColor: "#fff",
+				color: "#000",
+				height: 50,
+				font: { fontSize: 16, fontFamily: "aeiral", fontWeight: "bold"},
+				width: "100%",
+				textAllign: "center",
+				top: 0,	
 			});
 			
 			var closeWindow = function(){
 				imageWindow2.close();
 			};
-			
+			closeButton.addEventListener("click", closeWindow);
 			imageTitle.add(titleLabel);
 			imageWindow2.add(imageTitle, closeButton, imageView);
 			imageWindow2.open();
-			closeButton.addEventListener("click", closeWindow);
+			
 	};
 	
 

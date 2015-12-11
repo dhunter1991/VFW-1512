@@ -1,0 +1,92 @@
+var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "images");
+var imageFiles = imagesFolder.getDirectoryListing();
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var pHeight = Ti.Platform.displayCaps.platformHeight;
+
+var mainWindow = Titanium.UI.createWindow({
+	backgroundColor: "#000",
+	title: "New Movie Details",
+	textAllign: "center"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+var imageView = Ti.UI.createView({
+	top: 0,
+	height: 100,
+	backgroundColor: "#0fb213",
+});
+
+var imageText = Ti.UI.createLabel({
+	text: "Gallery",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var dataView = Ti.UI.createView({
+	top: imageView.top+ imageView.height,
+	height: 100,
+	backgroundColor: "#9b05c1"
+});
+
+var dataText = Ti.UI.createLabel({
+	text: "Details",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var customView = Ti.UI.createView({
+	top: dataView.top+dataView.height,
+	height: 100,
+	backgroundColor: "#0b39be"
+});
+
+var customText =Ti.UI.createLabel({
+	text: "Custom",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var gallery = function(){
+	var mainImageWindow = Ti.UI.createWindow({
+		title: "Gallery",
+		backgroundColor: "#0fb213",
+		layout: "horizontal"
+	});
+	var newImage = Ti.UI.createView({
+		backgroundColor: "#000",
+		top: "90%",
+		height: 50
+	});
+	var newImageText = Ti.UI.createLabel({
+		text: "New Image",
+		left: 20,
+		color: "#fff",
+		font: {fontSize: 18, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "regular", }
+	});
+	var mainImage = Ti.UI.createImageView({
+		image: "images/allegiant.jpg",
+		top: 20,
+		width: pWidth
+	});
+	//newImage.addEventListener("click", nextImage);
+	newImage.add(newImageText);
+	mainImageWindow.add(mainImage);
+	mainImageWindow.add(newImage);
+	navWindow.openWindow(mainImageWindow);
+};
+
+
+imageView.addEventListener("click", gallery);
+
+imageView.add(imageText);
+dataView.add(dataText);
+customView.add(customText);
+mainWindow.add(imageView, dataView, customView);
+navWindow.open();
+
