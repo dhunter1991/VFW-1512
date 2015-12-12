@@ -1,5 +1,5 @@
 
-12/11/2015, 1:57:08 PM
+12/11/2015, 8:35:58 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3 --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449860223317.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/Hunter_Dylan_Project 3 --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449884156045.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
 [TRACE]  [ioslib] Found iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
@@ -62,7 +62,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-423c4b63cdadd85bfc95de0948937c1aff5ff608.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 939.805 sec ago
+[TRACE]  optimizing build, last build was 24870.142 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -172,13 +172,13 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 2s 114ms
+[INFO]   Finished building the application in 1s 146ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
 [TRACE]  [ioslib]   UDID    = 454B8A6D-4296-447D-8921-138A62D5C0F8
 [TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.1.1
-[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/101575E4-FE1C-41B4-A1B9-8987E029E3AA/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/A51E3212-4302-4E86-862F-6583E65C7AED/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
 [TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/school/Library/Logs/CoreSimulator/454B8A6D-4296-447D-8921-138A62D5C0F8/system.log
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 454B8A6D-4296-447D-8921-138A62D5C0F8
 [TRACE]  [ioslib] iPhone 4s Simulator was already shutdown
@@ -190,5 +190,5 @@ Command
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 454B8A6D-4296-447D-8921-138A62D5C0F8 com.dylan.project3
 [TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/4FA2FB3F-3EFE-44FC-941C-B6D39774B405/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
 [TRACE]  [Hunter_Dylan_Project 3] assertion failed: 14F27 13B137: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/CD721E63-2B49-4E77-854A-45348A2C8DE3/Documents/4f08bfdb-3bc1-4375-9333-4f88521a36bf.log
