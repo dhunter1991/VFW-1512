@@ -3,9 +3,14 @@ var imageFiles = imagesFolder.getDirectoryListing();
 var pWidth = Ti.Platform.displayCaps.platformWidth;
 var pHeight = Ti.Platform.displayCaps.platformHeight;
 var actions = [
-		{title: "Now You See Me 2", description: "Sequel to the hit movie staring Jessie Eisenburg about the 4 horseman magicians. In this stunning sequel we will get to see what happens after they have completed all of their test and they are now in the secret order of magicians!"}, 
-		{title: "Captain America, Civil War", description: "In this new super hero movie Captian america gets into some trouble and it has grave consiqunces!"}, 
-		{title: "Concussion", description: "Amazing true story about a man from Africa who traveled here looking to live in the land of the free and eventually became a doctor. However when he discovers brain damage problems related to football players he finds out that it goes deeper than he thought and must fight to prove whats right."}
+		{title: "Now You See Me 2", description: "Sequel to the hit movie staring Jessie Eisenburg about the 4 horseman magicians. In this stunning sequel we will get to see what happens after they have completed all of their test and they are now in the secret order of magicians!",
+		image: "now you see.jpg",
+		actors: "Daniel Radcliffe, Lizzy Caplan, Jesse Eisenberg, Mark Ruffalo, Morgan Freeman, Woody Harrelson, Dave Franco",
+		}, 
+		{title: "Captain America, Civil War", description: "In this new super hero movie Captian america gets into some trouble and it has grave consiqunces!",
+		image: "civil war.jpg"}, 
+		{title: "Concussion", description: "Amazing true story about a man from Africa who traveled here looking to live in the land of the free and eventually became a doctor. However when he discovers brain damage problems related to football players he finds out that it goes deeper than he thought and must fight to prove whats right.",
+		image: "concussion.jpg"}
 	];
   
 var mainWindow = Titanium.UI.createWindow({
@@ -74,7 +79,7 @@ var gallery = function(){
 		height: 50
 	});
 	var newImageText = Ti.UI.createLabel({
-		text: "New Image",
+		text: "Display Random Image",
 		left: 20,
 		color: "#fff",
 		font: {fontSize: 18, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "regular", }
@@ -151,8 +156,12 @@ var data = function(){
 			left: 10,
 			right: 10
 		});
+		var movieImage = Ti.UI.createImageView({
+			image: "images/" + this.image,
+			top: detailTitleView.height,
+		});
 		detailTitleView.add(detailTitleLabel);
-		detailWin.add(detailTitleView, detailBorder, movieText);
+		detailWin.add(detailTitleView, detailBorder, movieText, movieImage);
 		navWindow.openWindow(detailWin);
 	};
 	
@@ -160,6 +169,8 @@ var data = function(){
 	var theRow = Ti.UI.createTableViewRow({
 		title: actions[i].title,
 		desc: actions[i].description,
+		image: actions[i].image,
+		actors: actions[i].actors,
 		hasChild: true
 	});
 	actionSection.add(theRow);
@@ -171,10 +182,84 @@ var data = function(){
 };
 var custom = function(){
 	var customWin = Ti.UI.createWindow({
-		backgroundColor: "#0b39be"
+		backgroundColor: "#0b39be",
+		title: "More Information",
+		exitOnClose: true,
+		layout: "verticle"
 	});
+	var textField = Ti.UI.createTextField({
+ 		 borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+ 		 color: '#336699',
+ 		 top: 40, left: 10,
+ 		 width: 275, height: 40
+	});
+	var pickMovie = Ti.UI.createLabel({
+		text: "Type one of the three movies from data",
+		color: "#fff",
+		top: 15,
+		left: 10
+	});
+	var button = Ti.UI.createView({
+		backgroundColor: "#000",
+		bottom: 0,
+		height: 50
+	});
+	var buttonLabel = Ti.UI.createLabel({
+		text: "Submit",
+		left: 20,
+		color: "#fff",
+		font: {fontSize: 18, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "regular", }
+	});
+	var picker = Ti.UI.createPicker({
+  		top: textField.top + textField.height + 10,
+  		useSpinner: true
+	});
+
+var data = ['Actors', 'budget', 'release date', 'reviews'];
+//data[0]=Ti.UI.createPickerRow({title:'Actors'});
+//data[1]=Ti.UI.createPickerRow({title:'budget'});
+//data[2]=Ti.UI.createPickerRow({title:'release date'});
+//data[3]=Ti.UI.createPickerRow({title:'reviews'});
+
+
+picker.selectionIndicator = true;
+var column1 = Ti.UI.createPickerColumn();
+
+for (var i=0, k=data.length; i<k; i++){
+	var row2 = Ti.UI.createPickerRow({
+		title: data[i]
+	});
+	column1.addRow(row2);
+};
+
+var column2 = Ti.UI.createPickerColumn();
+	for(var i=0, j=actions.length; i<j; i++ ){
+	var row3 = Ti.UI.createPickerRow({
+		title: actions[i].title
+	});
+	column2.addRow(row3);
+};
+picker.add([column1, column2]);
+button.add(buttonLabel);
+customWin.add(picker);
+customWin.add(textField, button, pickMovie);
+navWindow.openWindow(customWin);
+
+	var showActors = function(){
+	var dataWin = Ti.UI.createWindow({
+		backgroundColor: "#0b39be",
+		title: "More information About These Upcoming Films"
+	});
+	//if (picker.column1 == [0] & picker.column2 == [0]){
+	var text = Ti.UI.createLabel({
+		text: "Daniel Radcliffe, Lizzy Caplan, Jesse Eisenberg, Mark Ruffalo, Morgan Freeman, Woody Harrelson, Dave Franco",
+		color: "#fff",
+	});
+	dataWin.add(text);
+	navWindow.openWindow(dataWin);
 	
-	navWindow.openWindow(customWin);
+	};
+	button.addEventListener("click", showActors);
 };
 
 customView.addEventListener("click", custom);
