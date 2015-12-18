@@ -1,0 +1,26 @@
+var win = Ti.UI.createWindow({
+  backgroundColor: "white"
+});
+var textField = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: 10, left: 10,
+  width: 250, height: 60
+});
+var button = Ti.UI.createView({
+	backgroundColor: "#000",
+	bottom: 0,
+	height: 50
+});
+var text = Ti.UI.createLabel({
+	text: "Submit",
+	color: "#fff"
+});
+var run = function(){
+	
+};
+button.addEventListener("click", run);
+console.log(textField.value);
+win.add(textField);
+win.open();
+

@@ -1,0 +1,93 @@
+var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "images");
+var imageFiles = imagesFolder.getDirectoryListing();
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var pHeight = Ti.Platform.displayCaps.platformHeight;
+var actions = [
+		{title: "Now You See Me 2", description: "Sequel to the hit movie staring Jesse Eisenberg about the 4 horseman magicians. In this stunning sequel we will get to see what happens after they have completed all of their test and they are now in the secret order of magicians!",
+		image: "now you see.jpg",
+		actors: " Daniel Radcliffe, Lizzy Caplan, Jesse Eisenberg, Mark Ruffalo, Morgan Freeman, Woody Harrelson, Dave Franco",
+		release: " Now you see me 2 is scheduled to be released to theaters on june 10, 2016!",
+		director: " The director for this film is Jon M. Chu",
+		budget: "The spending Budget for this film was around 200 million",
+		budgetView: "55%"}, 
+		{title: "Captain America, Civil War", description: "In this new super hero movie Captian america gets into some trouble and it has grave consiqunces!",
+		image: "civil war.jpg",
+		actors: " these are the actors in Civil War Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan, Anthony Mackie, Paul Bettany, Jeremy Renner, Don Cheadle, Paul Rudd",
+		release: " Civil War is set to hit theaters on May 10, 2016",
+		director: " Anthony Russo and Joe Russo co-directed this upcoming action film",
+		budget: "The spending budget for this film was 30 million",
+		budgetView: "30%"}, 
+		{title: "Concussion", description: "Amazing true story about a man from Africa who traveled here looking to live in the land of the free and eventually became a doctor. However when he discovers brain damage problems related to football players he finds out that it goes deeper than he thought and must fight to prove whats right.",
+		image: "concussion.jpg",
+		actors: " these are the actors in Concussion Will Smith, Alec Baldwin, Gugu Mbatha-Raw, Arliss Howard, Paul Reiser, Luke Wilson",
+		release: " Concussion will be hitting theaters everywhere this year December 25, 2015 Christmas Day!",
+		director:" The director for this film was Peter Landesman",
+		budget: " The spending budget for this film was around 200 million",
+		budgetView: "60%"}
+	];
+  
+var mainWindow = Titanium.UI.createWindow({
+	backgroundColor: "#000",
+	title: "New Movie Details",
+	textAllign: "center"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+var imageView = Ti.UI.createView({
+	top: 0,
+	height: 100,
+	backgroundColor: "#0fb213",
+});
+
+var imageText = Ti.UI.createLabel({
+	text: "Gallery",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var dataView = Ti.UI.createView({
+	top: imageView.top+ imageView.height,
+	height: 100,
+	backgroundColor: "#9b05c1"
+});
+
+var dataText = Ti.UI.createLabel({
+	text: "Details",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+
+var customView = Ti.UI.createView({
+	top: dataView.top+dataView.height,
+	height: 100,
+	backgroundColor: "#0b39be"
+});
+
+var customText =Ti.UI.createLabel({
+	text: "Custom",
+	left: 20,
+	color: "#fff",
+	font: {fontSize: 40, fontFamily: "Cochin", fontWeight: "regular", fontStyle: "bold", }
+});
+var termText = Ti.UI.createLabel({
+	text: " VFW Term 1512 // Dylan Hunter",
+	bottom: 100,
+	color: "#fff",
+	font: {fontSize: 12, fontFamily: "arial", fontStyle: "regular"}
+});
+var loadFile = require("data");
+customView.addEventListener("click", custom);
+dataView.addEventListener("click", data);
+imageView.addEventListener("click", gallery);
+
+imageView.add(imageText);
+dataView.add(dataText);
+customView.add(customText);
+mainWindow.add(imageView, dataView, customView, termText);
+navWindow.open();
+

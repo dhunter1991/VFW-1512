@@ -1,0 +1,47 @@
+var win = Ti.UI.createWindow({
+  backgroundColor: "white"
+});
+var textField = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: 20, left: 10,
+  width: 250, height: 60
+});
+var picker = Ti.UI.createPicker({
+  top:80,
+  useSpinner: true
+});
+
+var data = ['Actors', 'Release date', 'director'];
+var column1 = Ti.UI.createPickerColumn();
+picker.selectionIndicator = true;
+
+var button = Ti.UI.createView({
+	backgroundColor: "#000",
+	bottom: 0,
+	height: 50
+});
+var text = Ti.UI.createLabel({
+	text: "Submit",
+	color: "#fff"
+});
+	for (var i=0; i< data.length; i++){
+		var row = Ti.UI.createPickerRow( data[i]);
+		row.index = i;
+	}
+	var label = Ti.UI.createLabel({
+		color: "#fff",
+		textAllign: "center"
+	});
+var run = function(){
+	console.log(data[i]);
+};
+button.addEventListener("click", run);
+
+row.add(label);
+column1.add(row);
+picker.add(column1, data);
+button.add(text);
+win.add(textField, button, picker);
+win.open();
+

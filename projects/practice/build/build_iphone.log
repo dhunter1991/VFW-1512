@@ -1,5 +1,5 @@
 
-12/11/2015, 3:47:48 PM
+12/18/2015, 1:32:14 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/practice --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1449866866059.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/VFW 1512/projects/practice --target simulator --ios-version 9.1 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.1 --device-id 454B8A6D-4296-447D-8921-138A62D5C0F8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58502 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1450463531396.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
 [TRACE]  [ioslib] Found iOS Simulator UDID 454B8A6D-4296-447D-8921-138A62D5C0F8
@@ -59,671 +59,34 @@ Command
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
-[INFO]   Forcing clean build: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build-manifest.json does not exist
 [INFO]   Initializing the build directory
-[DEBUG]  Recreating /Users/school/Desktop/VFW 1512/projects/practice/build/iphone
-[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-9c738c23d2090f152fe905cd89f023576ac39951.json
+[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-f0bec1c914af12d61793ffc71fcbfee27678f90a.json
 [TRACE]  online 1
-[TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"7267a2ed3fb617320a9013e28435a25513c3eac0 Q1GsbTF28ZyoN9M0P/0bxZBlIvYI0dCck7WHpbHC2FWrHcUEruB9WiEqJQwGXb1bMF7Veb7IF7H+aWZ5kDxOlmtwo5yg33X88c/p6vv7euSVaOq2tAzL7UsmJul0cyYKYSzQlL6XEsGQ4Epshb6Qw0ZP6jmUn7E5sQBmU5qypJt7R7+99wYIuh+vusIYTN3q6+UUF+UFhtL6bzSxuhs2w+DLQ2kUAaizKAcFJ4GfCgvGHaWVlDjeUOOfwwkfa6rEg0Vo8jOq/HqoMExrlSO5dX0BxF1dslfGAmlLytdRd383Ht+U7jqL4Qeetdcc8LCotCmkuyH7utU4n9BNjqTaLAGHDeuNwUcFduqMLXCBqjORPC+G9Jez0XyZDNhB1M9PTDL5AiIKvdWJtW32XBPoobSr9ei9fSpzkx2P6ztQiz1SEJPl1lg21nnYYf+UWUWLWJo9GbnRp+H+g7m2LM9nai7s73gC3FmeXG2ELINb6bHFVXMgodc2DqF6SyaNWcvR0qlGs7cDiAgOZwsqxAq0aGlBZG9jOMbLJzkFyY8/4qm1N80jna+UjxEQbHl/t+6TreRagPP+KEbg0aWIjgk9d5lxBuMT4S7BAIs+NGf5fCDqn1q/Pwek9Bhz7dniMBq3nINtuLVeVe8eUp3GhZbMcEIn0+sGUqPhp9tg32TSK2PfeCBKjDkC4WOrEkSHSXen7uA67hRpeeZpN8qRaLsARkXcXHkDrl9UNl1KVBxrgz+RpxFTNfPNXUIwR/uPZ+DyRnWwkBmTj4KJkF3qEN1iWsFobZKw6FAnOwlQ/ENTbNY=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"66d9077c-5841-453b-9bbb-3c9414cbb606","appid":"com.dylan.practice","name":"practice","org_id":100083291,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.dylan.practice</id>\n  <name>practice</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2015 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>66d9077c-5841-453b-9bbb-3c9414cbb606</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules/>\n    <deployment-targets>\n      <target device=\"android\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">5660fa232fb374ee4264f80d</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
-[TRACE]  result from /build-verify=> {"key":"cSvGXDfT2enDjcVRCsqKvw==","pepper":"aC83bY48Ud2JStZmgi8aKg==","hmacKey":"vOW+UHJfeM6KHnYttkEfLQ==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"566b367602e88d0906ed42b0","success":true}, err=null
-[INFO]   JavaScript files need to be encrypted
+[TRACE]  optimizing build, last build was 6480.972 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
 [TRACE]  No extensions to add
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.xcodeproj/project.pbxproj
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.xcodeproj/project.pbxproj
 [INFO]   Creating Entitlements.plist
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.entitlements
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.entitlements
 [INFO]   Creating Info.plist
 [INFO]   Disabling ATS
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Info.plist
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Info.plist
 [INFO]   Creating main.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/main.m
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/main.m
 [INFO]   Creating Xcode config files
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/project.xcconfig
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/module.xcconfig
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/module.xcconfig
 [INFO]   Copying Titanium libraries
-[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libTiCore.a => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libTiCore.a
-[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libtiverify.a => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libtiverify.a
-[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libti_ios_debugger.a => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libti_ios_debugger.a
-[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libti_ios_profiler.a => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libti_ios_profiler.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/lib/libti_ios_profiler.a
 [INFO]   Copying Titanium iOS files
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFItemView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFItemView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFOpenFlowConstants.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/UIImageExtras.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AFOpenFlow/UIImageExtras.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APIModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APIModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSAnalytics/APSAnalytics.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSAnalytics/libAPSAnalytics.a
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/APSHTTPClient/libAPSHTTPClient.a
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AccelerometerModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AccelerometerModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AnalyticsModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AnalyticsModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AppModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AppModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationDefaults.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationDefaults.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationMods.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationMods.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationRouting.h
 [TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AsyncSocket.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AsyncSocket.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AsyncUdpSocket.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AsyncUdpSocket.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AudioStreamer/AudioStreamer.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AudioStreamer/AudioStreamer.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Base64Transcoder.c
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Base64Transcoder.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Bridge.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Bridge.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/CalendarModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/CalendarModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/CodecModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/CodecModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ContactsModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ContactsModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/DatabaseModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/DatabaseModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/FilesystemModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/FilesystemModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GDataXMLNode.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GDataXMLNode.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GeolocationModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GeolocationModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GestureModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/GestureModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ImageLoader.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ImageLoader.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollBridge.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollBridge.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollCallback.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollCallback.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollContext.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollContext.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollCoverage.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollCoverage.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollMethod.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollMethod.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollMethodDelegate.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollMethodDelegate.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollObject.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollObject.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollPropertyDelegate.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollPropertyDelegate.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollTimer.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/KrollTimer.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherButton.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherButton.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherItem.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherItem.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LauncherView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Layout/TiLayoutDimension.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Layout/TiLayoutDimension.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Layout/TiLayoutView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Layout/TiLayoutView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LayoutConstraint.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LayoutConstraint.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ListenerEntry.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ListenerEntry.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LocaleModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/LocaleModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitCornersView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitCornersView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitDividerView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitDividerView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitViewController.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MGSplitView/MGSplitViewController.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MediaModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/MediaModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Mimetypes.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Mimetypes.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/NSData+Additions.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/NSData+Additions.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/NetworkModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/NetworkModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/OperationQueue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/OperationQueue.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlatformModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlatformModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLDatabase.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLPreparedStatement.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLResultSet.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Reachability.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Reachability.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/SBJSON.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/SBJSON.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/SCListener.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/SCListener.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/StreamModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/StreamModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMCharacterDataProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMCharacterDataProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMDOMImplementationProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMDOMImplementationProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMDocumentTypeProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TIDOMDocumentTypeProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ThirdpartyNS.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Ti2DMatrix.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Ti2DMatrix.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Ti3DMatrix.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Ti3DMatrix.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAction.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAction.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnchorAttachBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnchorAttachBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnimation.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnimation.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnimatorProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAnimatorProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiApp.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiApp.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppPropertiesProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppPropertiesProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSLocalNotificationProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSLocalNotificationProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSNotificationActionProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSNotificationActionProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableIndexProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableIndexProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableItemProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSSearchableItemProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSUserActivityProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSUserActivityProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSUserDefaultsProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiAppiOSUserDefaultsProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBase.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBase.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingEvent.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingEvent.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingRunLoop.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingRunLoop.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingTiValue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBindingTiValue.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBlob.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBlob.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBuffer.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiBuffer.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiButtonUtil.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiButtonUtil.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarAlert.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarAlert.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarCalendar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarCalendar.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarEvent.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarEvent.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarRecurrenceRule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarRecurrenceRule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarReminder.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCalendarReminder.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCollisionBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiCollisionBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiColor.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiColor.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiComplexValue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiComplexValue.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiConsole.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiConsole.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiContactsGroup.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiContactsGroup.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiContactsPerson.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiContactsPerson.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiController.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiControllerProtocols.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMAttrProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMAttrProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMCDATANodeProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMCDATANodeProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMCommentProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMCommentProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMDocFragProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMDocFragProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMDocumentProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMDocumentProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMElementProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMElementProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMEntityProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMEntityProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMEntityRefProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMEntityRefProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNamedNodeMapProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNamedNodeMapProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNodeListProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNodeListProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNodeProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNodeProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNotationProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMNotationProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMPIProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMPIProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMTextNodeProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMTextNodeProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMValidator.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDOMValidator.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDataStream.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDataStream.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDatabaseProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDatabaseProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDatabaseResultSetProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDatabaseResultSetProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDebugger.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDimension.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDimension.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDynamicItemBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiDynamicItemBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiErrorController.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiErrorController.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiEvaluator.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiExceptionHandler.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiExceptionHandler.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFile.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFile.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemBlobProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemBlobProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemFileProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemFileProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemFileStreamProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiFilesystemFileStreamProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiGradient.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiGradient.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiGravityBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiGravityBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiHost.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiHost.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiLayoutQueue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiLayoutQueue.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiLocale.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiLocale.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioPlayerProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioPlayerProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioRecorderProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioRecorderProxy.mm
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioSession.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaAudioSession.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaItem.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaItem.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaMusicPlayer.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaMusicPlayer.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaSoundProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaSoundProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaVideoPlayer.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaVideoPlayer.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaVideoPlayerProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiMediaVideoPlayerProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkBonjourBrowserProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkBonjourBrowserProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkBonjourServiceProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkBonjourServiceProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkCookieProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkCookieProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkHTTPClientProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkHTTPClientProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkSocketProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkSocketProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkSocketTCPProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkSocketTCPProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkTCPSocketProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiNetworkTCPSocketProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPlatformDisplayCaps.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPlatformDisplayCaps.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPoint.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPoint.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPreviewingDelegate.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPreviewingDelegate.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiProfiler/TiProfiler.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPublicAPI.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPublicAPI.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPushBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiPushBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiRect.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiRect.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiRootViewController.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiRootViewController.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiSelectedCellbackgroundView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiSelectedCellbackgroundView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiSnapBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiSnapBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiStreamProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiStreamProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiStylesheet.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiStylesheet.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiTab.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiTabGroup.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiThreading.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiThreading.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiToJS.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiToolbar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiToolbarButton.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicator.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicator.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicatorProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicatorProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIAlertDialogProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIAlertDialogProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIAttributedStringProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIAttributedStringProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButton.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButton.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonBar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonBar.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonBarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonBarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIButtonProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUICanvasView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUICanvasView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUICanvasViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUICanvasViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIClipboardProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIClipboardProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardItem.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardItem.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardItemProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardItemProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIDashboardViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIEmailDialogProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIEmailDialogProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIImageView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIImageView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIImageViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIImageViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUILabel.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUILabel.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUILabelProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUILabelProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListItem.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListItem.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListItemProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListItemProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListSectionProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListSectionProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIListViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIMaskedImage.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIMaskedImage.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIMaskedImageProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIMaskedImageProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUINavBarButton.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUINavBarButton.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIOptionDialogProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIOptionDialogProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPicker.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPicker.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerColumnProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerColumnProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerRowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIPickerRowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIProgressBar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIProgressBar.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIProgressBarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIProgressBarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIRefreshControlProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIRefreshControlProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollableView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollableView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollableViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIScrollableViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISearchBar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISearchBar.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISearchBarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISearchBarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISlider.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISlider.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISliderProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISliderProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISwitch.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISwitch.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISwitchProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUISwitchProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabGroup.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabGroup.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabGroupProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabGroupProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITabProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewAction.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewAction.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewRowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewRowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewSectionProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITableViewSectionProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextArea.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextArea.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextAreaProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextAreaProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextField.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextField.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextFieldProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextFieldProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextWidget.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextWidget.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextWidgetProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUITextWidgetProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWebView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWebView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWebViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWebViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWindow.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWindow.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWindowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIWindowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSAdView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSAdView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSAdViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSAdViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSCoverFlowView.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSCoverFlowView.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSDocumentViewerProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSDocumentViewerProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSNavWindow.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSNavWindow.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSNavWindowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSNavWindowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewActionProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewActionProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewContextProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSPreviewContextProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSSplitWindow.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSSplitWindow.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSSplitWindowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSSplitWindowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSTabbedBarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSTabbedBarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSToolbar.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSToolbar.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSToolbarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSToolbarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadPopoverProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadPopoverProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindow.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindow.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindowButtonProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindowButtonProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPadSplitWindowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneStatusBarProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneStatusBarProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemIconProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneSystemIconProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUtils.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiUtils.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewAttachBehavior.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewAttachBehavior.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewController.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewController.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewTemplate.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiViewTemplate.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiWindowProxy.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TiWindowProxy.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TopTiModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/TopTiModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+Alpha.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+Alpha.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+Resize.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+Resize.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+RoundedCorner.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIImage+RoundedCorner.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UIModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UtilsModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/UtilsModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/WatchSessionModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/WatchSessionModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/WebFont.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/WebFont.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Webcolor.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/Webcolor.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/XHRBridge.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/XHRBridge.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/XMLModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/XMLModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/YahooModule.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/YahooModule.m
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/Ti.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiBase.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiContext.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiContextRef.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiCore.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiExport.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiManagedValue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiObjectRef.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiStringRef.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiStringRefCF.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiValue.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiValueRef.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/TiVirtualMachine.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/headers/JavaScriptCore/WebKitAvailability.h
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice_Prefix.pch
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.xcodeproj/xcshareddata/xcschemes/practice.xcscheme
-[INFO]   Cleaning Xcode derived data
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean
-[TRACE]  2015-12-11 15:47:53.588 xcodebuild[9812:9774370] [MT] PluginLoading: Required plug-in compatibility UUID 7265231C-39B4-402C-89E1-16167C4CC990 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-[TRACE]  === CLEAN TARGET practice OF PROJECT practice WITH THE DEFAULT CONFIGURATION (Release) ===
-[TRACE]  Check dependencies
-[TRACE]  [BEROR]Code Sign error: No code signing identities found: No valid signing identities (i.e. certificate and private key pair) were found.
-[TRACE]  Create product structure
-[TRACE]  /bin/mkdir -p /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-dbbkbzdeovaejzggonravixotbcz/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-dbbkbzdeovaejzggonravixotbcz/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-afptykggvbbaurgseopjmovfekoi/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-eevfgotcnbwhogcjuqwlfaxfenrs/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-eevfgotcnbwhogcjuqwlfaxfenrs/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-cwtorwykstvzcphiskwfpzktikky/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean build/Release-iphoneos/practice.app
-[TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-fxvjslavrgoiqafvbzeysmksdlgs/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-aekpeckhkeqzgwhkskkatyglqbln/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-aekpeckhkeqzgwhkskkatyglqbln/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-ehtdutrlsojdjmaqswheucqsmfbf/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-ehtdutrlsojdjmaqswheucqsmfbf/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-asrsfutuoqrbyvaivuihhiehkfnx/practice_Prefix.pch.pch
-[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.1.1-7B1005/Xcode/SharedPrecompiledHeaders/practice_Prefix-asrsfutuoqrbyvaivuihhiehkfnx/practice_Prefix.pch.pch
-[TRACE]  Clean.Remove clean build/practice.build/Release-iphoneos/practice.build
-[TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/practice.build/Release-iphoneos/practice.build
-[TRACE]  Clean.Remove clean build/Release-iphoneos/practice.app.dSYM
-[TRACE]  builtin-rm -rf /Users/school/Desktop/VFW\ 1512/projects/practice/build/iphone/build/Release-iphoneos/practice.app.dSYM
-[TRACE]  ** CLEAN SUCCEEDED **
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice_Prefix.pch
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/practice.xcodeproj/xcshareddata/xcschemes/practice.xcscheme
 [INFO]   Creating debugger and profiler plists
 [DEBUG]  Skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/debugger.plist
 [DEBUG]  Skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/profiler.plist
@@ -733,34 +96,66 @@ Command
 [INFO]   Analyzing localized launch images
 [INFO]   Analyzing CommonJS modules
 [INFO]   Creating asset catalog
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/Contents.json
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/Contents.json
 [INFO]   Creating app icon set
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
-[DEBUG]  Found /Users/school/Desktop/VFW 1512/projects/practice/DefaultIcon.png (1024x1024)
-[INFO]   Missing 6 app icons, generating missing icons
-[INFO]     Resources/iphone/appicon-Small@2x.png - Used for iPhone, iPad - size: 58x58
-[INFO]     Resources/iphone/appicon-Small@3x.png - Used for iPhone - size: 87x87
-[INFO]     Resources/iphone/appicon-Small-40@2x.png - Used for iPhone, iPad - size: 80x80
-[INFO]     Resources/iphone/appicon-Small-40@3x.png - Used for iPhone - size: 120x120
-[INFO]     Resources/iphone/appicon-60@2x.png - Used for iPhone - size: 120x120
-[INFO]     Resources/iphone/appicon-60@3x.png - Used for iPhone - size: 180x180
-[TRACE]  Resizing images: java -jar "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/node-appc/tools/resizer/resizer.jar" "/Users/school/Desktop/VFW 1512/projects/practice/DefaultIcon.png" "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png" 58 58 "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png" 87 87 "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png" 80 80 "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png" 120 120 "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png" 120 120 "/Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png" 180 180
+[TRACE]  Found generated 58x58 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
 [INFO]   Creating launch image set
 [DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
 [DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
 [DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
 [DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
 [DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
-[DEBUG]  Writing /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/KS_nav_ui.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/KS_nav_ui.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/KS_nav_views.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/KS_nav_views.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default-568h@2x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default-667h@2x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default-Landscape-736h@3x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default-Portrait-736h@3x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/iphone/Default@2x.png => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Copying /Users/school/Desktop/VFW 1512/projects/practice/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/assets/app_js
+[DEBUG]  Overwriting /Users/school/Desktop/VFW 1512/projects/practice/Resources/app.js => /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/app.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 553ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib]   iOS     = 9.1
+[TRACE]  [ioslib] Autoselected Xcode: 7.1.1
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/18EDADA0-2EA4-488F-BEF0-373BDC4E53C8/Documents/66d9077c-5841-453b-9bbb-3c9414cbb606.log
+[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/school/Library/Logs/CoreSimulator/454B8A6D-4296-447D-8921-138A62D5C0F8/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib] iPhone 4s Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 454B8A6D-4296-447D-8921-138A62D5C0F8
+[TRACE]  [ioslib] iPhone 4s Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 454B8A6D-4296-447D-8921-138A62D5C0F8 /Users/school/Desktop/VFW 1512/projects/practice/build/iphone/build/Products/Debug-iphonesimulator/practice.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 454B8A6D-4296-447D-8921-138A62D5C0F8 com.dylan.practice
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/454B8A6D-4296-447D-8921-138A62D5C0F8/data/Containers/Data/Application/34A34A0C-00B7-4200-A41B-00C1AE4A8400/Documents/66d9077c-5841-453b-9bbb-3c9414cbb606.log
+[TRACE]  [practice] assertion failed: 14F27 13B137: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
